@@ -1,29 +1,27 @@
 # To study and implement Sorting Algorithm i) Selection Sort ii) Insertion Sort iii) Bubble Sort
 
-## Aim:
-**To study and implement sorting algorithm C++.**
+### Aim 
+To study and implement Sorting Algortithm in C++ <ol><li>Selection Sort</li> <li>Insertion Sort</li> <li>Bubble Sort</li></ol> 
 
-## Software:
-`Microsoft VSCode`
+### Software 
+Visual Studio Code 
 
-## Theory:
-Sorting algorithms are used to rearrange elements of a list in a specific order, typically either ascending or descending. Below, I'll explain a few common sorting algorithms in C++.
-Bubble Sort Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+### Theory 
+<b> (1) Selection Sort </b> <br> 
+<ul><li>Finds the minimum element in the unsorted array.</li> <li>Swaps it with the elementt at the beginning.</li> <li>Repeats the process for the rest of the unsorted array.</li></ul> 
 
-Selection Sort Selection Sort finds the minimum element from the unsorted part of the list and swaps it with the first unsorted element. It repeats this process until the list is sorted.
+<b>(2) Insertion Sort</b> <br> 
+<ul><li>Starts from the second element, and compare it with previous elements.</li> <li>Moves larger elements one position to the right to make space for the current element.</li> <li>Insert the current element in its correct position.</li></ul>
 
-Insertion Sort Insertion Sort builds the sorted list one item at a time by repeatedly taking one unsorted item and inserting it into the correct position within the sorted part of the list.
+<b> (3) Bubble Sort </b> <br> 
+<ul><li>Repeatedly compares adjacent elements.</li> <li>Swap them if they are in the wrong order.</li> <li>The largest (or smallest) element "bubbles up" to its correct position.</li></ul> 
 
-
-
-
-
-## Code: 20A
-(A) <br> 
-```cpp
+### Code 
+(A) 
+```
 // NAME - Shivendra Dwivedi
-//PRN - 23070123122
-// EXPERIMET - 20(A) 
+// PRN - 23070123122 
+// EXPERIMENT - 20(A) 
 
 #include<iostream>
 using namespace std;
@@ -71,23 +69,12 @@ int main() {
     }
     cout << endl;
     return 0;
-}
+} 
 ```
 
-## Output:
-![image](https://github.com/user-attachments/assets/da1c187d-6509-4399-ba42-58390c09d0ca)
-
-
-
-
-
-
-
-
-
-## Code: 20B
-```cpp
-// NAME - Shivendra Dwivedi
+(B) 
+```
+// NAME - Sivendra Dwivedi
 // PRN - 23070123122
 // EXPERIMENT - 20(B) 
 
@@ -138,14 +125,14 @@ int main() {
     cout << endl;
 
     return 0;
-} 
+}  
 ```
 
-## Code: 20C
-```cpp
+(C) 
+```
 // NAME - Shivendra Dwivedi
 // PRN - 23070123122
-// EXPERIMENT - 20(C)
+// EXPERIMENT - 20(C) 
 
 #include<iostream>
 using namespace std;
@@ -184,17 +171,23 @@ int main() {
     cout << endl;
     
     return 0;
-}
+} 
 ```
-## Output:
-![image](https://github.com/user-attachments/assets/40f4409f-2352-474e-96d5-2e948db7cd0d)
 
+### Output 
+(A) 
+![](https://github.com/Shloka-Patel/Experiment---20/blob/main/Output_20A.png) 
 
+(B) 
+![](https://github.com/Shloka-Patel/Experiment---20/blob/main/Output_20B.png) 
 
+(C) 
+![](https://github.com/Shloka-Patel/Experiment---20/blob/main/Output_20C.png) 
 
-
-
-
+### Conclusion 
+<ul><li><b>Selection Sort:</b> Selects the smallest element and swaps it; siple but inefficient for large arrays.</li><br> 
+<li><b>Insertion Sort:</b> Efficient for small or nearly sorted arrays; it inserts elements in their correct position.</li><br> 
+<li><b>Bubble Sort:</b> Repeatedly swaps adjacentn elements; easy to understand but inefficient for large datasets.</li> <br> 
 
 
 
